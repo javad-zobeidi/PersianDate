@@ -1,6 +1,19 @@
 تاریخ شمسی برای دارت و فلاتر
 
 
+## نصب کتابخانه
+```
+dependencies:
+  persian_date: ^0.0.2
+  ```
+  ```
+  flutter packages get
+  ```
+  ```
+  import 'package:persian_date/persian_date.dart';
+``` 
+  
+  
 ## استفاده از کتاب خانه 
 
 چند مثال ساده
