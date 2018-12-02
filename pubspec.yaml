@@ -1,0 +1,15 @@
+name: persian_date
+description: This Plugin is Used For Jalali Date
+ version: 1.0.0
+ homepage: javadzobeidi.ir
+ author: Javad Zobeidi <j.zobeidi89@gmail.com>
+# Telegram: t.me/Developer_89
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+#dependencies:
+#  path: ^1.4.1
+
+dev_dependencies:
+  test: ^1.0.0
