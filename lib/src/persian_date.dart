@@ -185,7 +185,7 @@ class PersianDate {
     'شنبه'
   ];
 
-  gregorian_to_jalali(int y, int m, int d, {String separator}) {
+  gregorian_to_jalali(int y, int m, int d, [String separator]) {
     var sumMonthDay = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334];
     var jY = 0;
     if (y > 1600) {
@@ -290,7 +290,7 @@ class PersianDate {
       parseList.add(parse.second);
       return parseList;
     } else {
-      return "${gregorian_to_jalali(parse.year, parse.month, parse.day, separator: separator)} ${parse.hour}:${parse.minute}:${parse.second}";
+      return "${gregorian_to_jalali(parse.year, parse.month, parse.day, separator)} ${parse.hour}:${parse.minute}:${parse.second}";
     }
   }
 
